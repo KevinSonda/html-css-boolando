@@ -33,7 +33,6 @@ main{
 
 .contenuto{
     margin: 10px;
-    
     color: white;    
 }
 
@@ -55,9 +54,8 @@ main{
 
 .contenuto-centrale{
     margin: 10px;
-    height: 500px;
-    background-color: red;
-    border: 1px solid black;
+    position: relative;
+    
 }
 
 .contenuto img{
@@ -75,4 +73,59 @@ main{
 .contenuto i{
     margin: 0px 5px;
     padding-top: 10px;
+}
+.immagini{
+    position: relative;
+}
+.immagini img{
+    width: 100%;
+}
+.immagine-visibile{
+    display: block;
+}
+.immagine-nascosta{
+    display: none;
+}
+.nome-brand{
+    font-size: 17px;
+    font-weight: 300;
+}
+.nome-articolo{
+    text-transform: uppercase;
+}
+.testo-rosso{
+    color: red;
+    margin-right: 6px;
+}
+.testo-cancellato{
+    text-decoration: line-through;
+}
+.etichetta{
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    display: inline-block;
+    left: 0;
+    bottom: 20px;
+}
+.etichetta-rossa{
+    background-color: red;
+    margin-right: 5px;
+}
+.etichetta-verde{
+    background-color: green;
+}
+.cuore{
+    padding: 5px;
+    background-color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.immagini-etichetta{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
 }
